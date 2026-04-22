@@ -66,6 +66,20 @@ Wochen 1-6        Wochen 7-12       Wochen 13-20       Wochen 21-26
 
 ---
 
+## 🎓 Zertifikate & Abschlüsse
+
+| Zertifikat | Plattform | Datum | Nachweis |
+|---|---|---|---|
+| 📊 Business Intelligence Data Analyst | Codecademy | April 2025 | [📄 Ansehen](./Certificate_of_Completion_Business_Intelligence_Data_Analyst.pdf) |
+| 🔧 Data Engineer Career Path | Codecademy | Juni 2025 | [📄 Ansehen](./Certificate_of_Completion_Data_Engineer.pdf) |
+| 🍃 Learn MongoDB Course | Codecademy | Juni 2025 | [📄 Ansehen](./Certificate_of_Completion_MongoDB_.png) |
+| 📗 MO-201 Excel Expert | Microsoft/Certiport | In Bearbeitung | 🔄 |
+| 🗄️ DP-900 Azure Data Fundamentals | Microsoft | In Bearbeitung | 🔄 |
+| 📊 PL-300 Power BI Data Analyst | Microsoft | In Bearbeitung | 🔄 |
+
+> 💡 Alle Codecademy-Zertifikate sind verifizierbar über den QR-Code auf dem Dokument.
+
+
 ## 📊 GitHub Stats
 
 <div align="center">
