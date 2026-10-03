@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Alex!
+# 👋 Hi, I'm Alexander Fritzler!
 ### 📊 Data Analyst & ⚙️ Microsoft Fabric Data Engineer
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com)
