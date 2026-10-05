@@ -86,22 +86,13 @@
 </table>
 
 #### 🔹 Cloud & Data Engineering
-Microsoft Fabric • Delta Lake • Medallion Architecture • Data Factory Pipelines • OneLake • Synapse Warehouse
+Microsoft Fabric • Delta Lake • Medallion Architecture • Data Factory Pipelines • OneLake • Fabric Warehouse
 
 #### 🔹 Analytics & Business Intelligence
 Power BI Desktop • DAX (Explicit Measures, Time Intelligence) • Power Query (M) • Star Schema • Direct Lake Mode
 
 #### 🔹 Database & SQL Engineering
 T-SQL • Stored Procedures • CTAS • Window Functions • Execution Plans & Index Tuning • CTEs
-
----
-
-## 📈 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alefritz19&show_icons=true&theme=radical&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alefritz19&layout=compact&theme=radical&hide_border=true" width="44%" alt="Top Languages" />
-</div>
 
 ---
 
