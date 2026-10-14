@@ -1,66 +1,81 @@
 <div align="center">
 
 # 👋 Hi, I'm Alexander Fritzler!
-### 📊 Data Analyst & ⚙️ Microsoft Fabric Data Engineer
+### 📊 BI & Data Analyst | ⚙️ Analytics Engineer (Power BI · SQL · Microsoft Fabric)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/alexander-fritzler-214628356/)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail)](mailto:alefritz19@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Germany-lightgrey?style=for-the-badge&logo=googlemaps)](https://maps.google.com)
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00B4D8&center=true&vCenter=true&width=520&lines=Power+BI+%26+DAX+Specialist;Microsoft+Fabric+(DP-700);T-SQL+%26+SQL+Server+Engineering;Lakehouse+%26+PySpark+Pipelines" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00B4D8&center=true&vCenter=true&width=560&lines=Power+BI+%26+Advanced+DAX+Architect;Business+Analytics+%26+Retail+KPIs;T-SQL+Analytics+%26+Data+Auditing;Microsoft+Fabric+(DP-600+%2F+DP-700)" alt="Typing SVG" />
 </p>
 
 </div>
 
 ---
 
-## 🌟 Featured Engineering Projects
+## 🌟 Ausgewählte Portfolio-Projekte (Featured Projects)
 
-### 🛒 [Supermarkt Medallion Data Platform & Power BI Direct Lake](https://github.com/alefritz19/Supermarkt-Medallion-Lakehouse-Fabric)
-> **End-to-End Enterprise Lakehouse Architecture on Microsoft Fabric (DP-700 & PL-300)**
+Alle drei Hauptprojekte basieren auf einer gemeinsamen, realistischen Einzelhandelsarchitektur (**FrischMarkt GmbH**, 5 Filialen, 120 Artikel, 3.000 Kundenkarten, ~755.000 Transaktionspositionen) und decken den gesamten Weg von der Rohdatenbereinigung bis zum Vorstandsdashboard ab:
 
 ```
-[SQL Server / ERP] ➔ [OneLake Bronze (Raw)] ➔ [PySpark Silver (Delta Lake & Z-Order)] ➔ [Gold Shortcuts & DW CTAS] ➔ [Power BI Direct Lake]
+[SQL Server / ERP Staging] ──▶ [T-SQL Data Cleaning & Cohorts] ──▶ [Power BI Star Schema & DAX] ──▶ [Fabric Medallion Lakehouse]
 ```
 
-- **Domain & Scope:** Einzelhandel & FMCG (Supermarkt-Transaktionsdaten, Filialumsätze, Bons, Kunden- & Produktanalysen).
-- **Core Engineering:**
-  - ⚡ **Bronze ➔ Silver (PySpark ETL):** Schema-Casting, String-Cleansing, Star-Schema Denormalisierung (`dim_produkte`, `fct_verkaeufe`), `OPTIMIZE ZORDER BY (EinkaufDatum, ProduktID)`.
-  - 🏛️ **Serving (Fabric Warehouse):** Cross-Database T-SQL CTAS Aggregationen und idempotente Stored Procedures (`dbo.usp_Refresh_Kategorie_Summary`).
-  - 📊 **Business Intelligence (Direct Lake):** Zero-Copy Direct Lake Semantikmodell auf Delta Parquet mit expliziten Time-Intelligence DAX Measures (YoY, YTD, Durchschn.-Bon).
-- 🔗 **Repository & Code:** [alefritz19/Supermarkt-Medallion-Lakehouse-Fabric ➔](https://github.com/alefritz19/Supermarkt-Medallion-Lakehouse-Fabric)
-  - 📄 [`PySpark Transformation Notebook`](https://github.com/alefritz19/Supermarkt-Medallion-Lakehouse-Fabric/blob/main/notebooks/nb_bronze_to_silver_supermarkt.py)
-  - 📄 [`Warehouse Analytics & Stored Procedure T-SQL`](https://github.com/alefritz19/Supermarkt-Medallion-Lakehouse-Fabric/blob/main/sql_warehouse/warehouse_analytics_ctas_sp.sql)
-  - 📄 [`Explizite DAX Measures`](https://github.com/alefritz19/Supermarkt-Medallion-Lakehouse-Fabric/blob/main/power_bi/dax_measures_supermarkt.dax)
+---
+
+### 1. 📊 [Power BI Supermarkt Retail Analytics (Enterprise Solution)](https://github.com/alefritz19/PowerBI-Supermarkt-Analytics)
+> **End-to-End Business Intelligence & Reporting (PL-300 Standard · Sternschema nach Kimball · 60+ DAX-Measures)**
+
+* **Geschäftskontext:** Ganzheitliche Steuerung eines Filialunternehmens (2,51 Mio. € Umsatz, 768.980 € Rohertrag).
+* **Kernbestandteile:**
+  * 🏛️ **Kimball-Sternschema:** 7 Dimensionen (`dim_produkt`, `dim_kunde`, `dim_filiale`, `dim_datum`, `dim_mitarbeiter`, `dim_aktionen`) und 2 Fakten (`fct_verkaeufe`, `fct_abschreibungen`) mit strikten 1:n Beziehungen und einfacher Filterrichtung.
+  * 🧮 **DAX-Measures-Bibliothek:** Time Intelligence (YoY, MoM, YTD, 12M MAT), Filterkontext-Steuerung via `CALCULATE`/`ALL`/`KEEPFILTERS`, dynamische ABC-Pareto-Sortimentsanalyse nach Umsatz & Ertrag sowie Warenkorb-Penetration.
+  * 💡 **Konkrete Business Insights:** Aufdeckung von 36.658 € MHD-Abschreibungen bei Frischeware, Margenanalyse (Molkerei 24,4 % vs. Backwaren 51,7 %) und Frequenz-Benchmarking nach Standorten.
+* 🔗 **Repository:** [alefritz19/PowerBI-Supermarkt-Analytics ➔](https://github.com/alefritz19/PowerBI-Supermarkt-Analytics)
 
 ---
 
-### 📚 [Data Engineering Knowledge Base & Production Hub](https://github.com/alefritz19/Data-Engineering-KnowledgeBase)
-> **Zentrale Engineering-Bibliothek: Vorlagen, Performance Tuning & Best Practices**
+### 2. 🗄️ [SQL Analyst Toolkit & Production Hub](https://github.com/alefritz19/sql-analyst-toolkit)
+> **Praxisorientierte T-SQL Referenzarchitektur für Datenbereinigung, Kohortenanalyse & Kundenwert (RFM)**
 
-- 🗄️ **Microsoft SQL Server:** DQL (Window Functions, CTEs), DMV Index Tuning, Stored Procedures.
-- 📊 **Power BI & Analytics:** Power Query M Automatisierung, Star Schema Richtlinien, DAX Time Intelligence.
-- ⚙️ **Microsoft Fabric & Spark:** Ingestion Patterns, Medallion Architekturen, Git CI/CD Workflows.
-- 🔗 **Repository:** [alefritz19/Data-Engineering-KnowledgeBase ➔](https://github.com/alefritz19/Data-Engineering-KnowledgeBase)
-
----
-
-## 🚀 About Me
-
-- 💼 **Focus Areas**: End-to-end Business Intelligence, Cloud Data Engineering & Lakehouse Architectures.
-- 🎯 **Target Roles**: Data Analyst, Microsoft Fabric Data Engineer, Analytics Engineer.
-- 🏗️ **Core Philosophy**: Saubere Datenmodelle (Star Schema), versionskontrollierte Pipelines (Git CI/CD) und skalierbare Lakehouse-Architekturen ohne redundante Datenkopien.
+* **Geschäftskontext:** Vorbereitung und Auditierung unstrukturierter operativer Rohdaten für Reporting und Analytics.
+* **Kernbestandteile:**
+  * 🧹 **Data Cleaning & Auditing (`DATA_CLEANING_MASTER.sql`):** In-Flight-Bereinigung von Whitespace, sichere Datumskonvertierung (`TRY_CONVERT`) und Duplikats-Deduplizierung via `ROW_NUMBER()`.
+  * 📈 **Advanced Window Functions (`WINDOW_FUNCTIONS_MASTER.sql`):** MoM-Wachstum via `LAG()`, Top-Seller-Ranking je Kategorie via `DENSE_RANK()` und gleitender 7-Tage-Durchschnitt (`ROWS BETWEEN 6 PRECEDING`) zur Glättung von Wochenende-Peaks.
+  * 👥 **Customer Analytics (`ADVANCED_ANALYTICS_MASTER.sql`):** Vollständige RFM-Segmentierung (Recency, Frequency, Monetary mit `NTILE(5)`) sowie monatliche Kohorten-Retention-Matrix (M0 bis M6).
+* 🔗 **Repository:** [alefritz19/sql-analyst-toolkit ➔](https://github.com/alefritz19/sql-analyst-toolkit)
 
 ---
 
-## 🛠️ Tech Stack & Tooling
+### 3. ⚙️ [Supermarkt Medallion Data Platform on Microsoft Fabric](https://github.com/alefritz19/Supermarkt-Medallion-Lakehouse-Fabric)
+> **Cloud Lakehouse Architektur (Bronze ➔ Silver ➔ Gold ➔ Direct Lake / DP-700 & DP-600)**
+
+* **Geschäftskontext:** Skalierung der operativen SQL-Datenbank in eine moderne SaaS-Lakehouse-Infrastruktur.
+* **Kernbestandteile:**
+  * ⚡ **Bronze ➔ Silver (PySpark ETL):** Schemavalidierung, Typ-Casting, Delta-Lake-Optimierung via `Z-ORDER BY (BonDatum, ProduktID)`.
+  * 🏛️ **Serving Layer (Fabric Warehouse):** Cross-Database CTAS-Aggregationen und Stored Procedures für Vorstandsberichte.
+  * 📊 **Zero-Copy Direct Lake:** Power BI Semantikmodell liest direkt aus Parquet-Dateien im OneLake ohne Import-Duplikate.
+* 🔗 **Repository:** [alefritz19/Supermarkt-Medallion-Lakehouse-Fabric ➔](https://github.com/alefritz19/Supermarkt-Medallion-Lakehouse-Fabric)
+
+---
+
+## 🛠️ Tech Stack & Kompetenzen
 
 <table>
   <tr>
     <td align="center" width="96">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" width="48" height="48" alt="Power BI" />
+      <br><b>Power BI</b>
+    </td>
+    <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" width="48" height="48" alt="MSSQL" />
       <br><b>SQL Server</b>
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg" width="48" height="48" alt="Fabric" />
+      <br><b>MS Fabric</b>
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48" height="48" alt="Python" />
@@ -71,31 +86,18 @@
       <br><b>PySpark</b>
     </td>
     <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg" width="48" height="48" alt="Fabric" />
-      <br><b>MS Fabric</b>
-    </td>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" width="48" height="48" alt="Power BI" />
-      <br><b>Power BI</b>
-    </td>
-    <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="48" height="48" alt="Git" />
       <br><b>Git</b>
     </td>
   </tr>
 </table>
 
-#### 🔹 Cloud & Data Engineering
-Microsoft Fabric • Delta Lake • Medallion Architecture • Data Factory Pipelines • OneLake • Fabric Warehouse
-
-#### 🔹 Analytics & Business Intelligence
-Power BI Desktop • DAX (Explicit Measures, Time Intelligence) • Power Query (M) • Star Schema • Direct Lake Mode
-
-#### 🔹 Database & SQL Engineering
-T-SQL • Stored Procedures • CTAS • Window Functions • Execution Plans & Index Tuning • CTEs
+* **Business Intelligence & Reporting:** Power BI Desktop/Service · DAX (Time Intelligence, Filter Context, All/Keepfilters, Pareto) · Power Query (M) · Kimball Sternschema · IBCS Design Standards
+* **Datenbanken & T-SQL Engineering:** Microsoft SQL Server 2022 · DWH-Modellierung · CTEs & Unterabfragen · Fensterfunktionen (Row_Number, Lag, Lead, Dense_Rank) · Data Cleansing · Index-Optimierung
+* **Cloud & Modern Analytics Stack:** Microsoft Fabric (OneLake, Lakehouse, Warehouse, Direct Lake) · Delta Parquet · PySpark · Git CI/CD
 
 ---
 
 <div align="center">
-  <i>"Transforming complex raw data into robust, automated enterprise insights."</i>
+  <i>"Daten sind erst dann wertvoll, wenn sie konkrete unternehmerische Entscheidungen herbeiführen."</i>
 </div>
