@@ -19,8 +19,8 @@
 
 Alle drei Hauptprojekte basieren auf einer gemeinsamen, realistischen Einzelhandelsarchitektur (**FrischMarkt GmbH**, 5 Filialen, 120 Artikel, 3.000 Kundenkarten, ~755.000 Transaktionspositionen) und decken den gesamten Weg von der Rohdatenbereinigung bis zum Vorstandsdashboard ab:
 
-```
-[SQL Server / ERP Staging] ──▶ [T-SQL Data Cleaning & Cohorts] ──▶ [Power BI Star Schema & DAX] ──▶ [Fabric Medallion Lakehouse]
+```text
+[SQL Server / ERP] ──▶ [T-SQL Cleaning & RFM] ──▶ [Power BI DAX & Star Schema] ──▶ [Fabric Lakehouse]
 ```
 
 ---
@@ -30,7 +30,7 @@ Alle drei Hauptprojekte basieren auf einer gemeinsamen, realistischen Einzelhand
 
 * **Geschäftskontext:** Ganzheitliche Steuerung eines Filialunternehmens (2,51 Mio. € Umsatz, 768.980 € Rohertrag).
 * **Kernbestandteile:**
-  * 🏛️ **Kimball-Sternschema:** 7 Dimensionen (`dim_produkt`, `dim_kunde`, `dim_filiale`, `dim_datum`, `dim_mitarbeiter`, `dim_aktionen`) und 2 Fakten (`fct_verkaeufe`, `fct_abschreibungen`) mit strikten 1:n Beziehungen und einfacher Filterrichtung.
+  * 🏛️ **Kimball-Sternschema:** 6 Dimensionstabellen (`dim_produkt`, `dim_kunde`, `dim_filiale`, `dim_datum`, `dim_mitarbeiter`, `dim_aktionen`) und 2 Faktentabellen (`fct_verkaeufe`, `fct_abschreibungen`) mit strikten 1:n Beziehungen und einfacher Filterrichtung.
   * 🧮 **DAX-Measures-Bibliothek:** Time Intelligence (YoY, MoM, YTD, 12M MAT), Filterkontext-Steuerung via `CALCULATE`/`ALL`/`KEEPFILTERS`, dynamische ABC-Pareto-Sortimentsanalyse nach Umsatz & Ertrag sowie Warenkorb-Penetration.
   * 💡 **Konkrete Business Insights:** Aufdeckung von 36.658 € MHD-Abschreibungen bei Frischeware, Margenanalyse (Molkerei 24,4 % vs. Backwaren 51,7 %) und Frequenz-Benchmarking nach Standorten.
 * 🔗 **Repository:** [alefritz19/PowerBI-Supermarkt-Analytics ➔](https://github.com/alefritz19/PowerBI-Supermarkt-Analytics)
