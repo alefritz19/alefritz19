@@ -135,7 +135,7 @@ Die abschließende Aggregation über die Faktentabelle `GOLD_DWH.FCT_LIEFERUNGEN
 ![Gold Layer KPI Reporting](./assets/01_gold_layer_kpi_report.png)
 
 ### B) Array-Normalisierung (`LATERAL FLATTEN` — 13 Sendungspositionen)
-![Lateral Flatten Results](./assets/02_silver_lateral_flatten.png)
+![Lateral Flatten Results](./assets/02_silver_lateral_flatten_de.png)
 
 ### C) Snowflake Horizon Catalog Explorer & Cortex-Metadaten (`EUROLOGISTIK_DWH_DB` & `EUROLOGISTIK_DEV_CLONE`)
 ![Catalog Explorer](./assets/03_catalog_explorer_lineage.png)
