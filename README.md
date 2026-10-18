@@ -4,6 +4,7 @@
 ### ⚙️ Cloud Data Engineer & Analytics Engineer (Microsoft Fabric · Snowflake · SQL Server · PySpark)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/alexander-fritzler-214628356/)
+[![Snowflake Certified](https://img.shields.io/badge/Snowflake-Data_Warehousing_Verified-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)](https://achieve.snowflake.com/39919e7c-4de3-46d3-80a5-de041ca1ffc5)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail)](mailto:alefritz19@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Germany-lightgrey?style=for-the-badge&logo=googlemaps)](https://maps.google.com)
 
@@ -69,6 +70,28 @@ Mein Schwerpunkt liegt auf dem Aufbau robuster, skalierbarer **End-to-End Datenp
   * ⭐ **Strikte Sternschema-Modellierung:** Saubere Trennung von Fakten (`fct_verkaeufe`, `fct_abschreibungen`) und Dimensionen (`dim_produkt`, `dim_kunde`, `dim_filiale`, `dim_datum`, `dim_mitarbeiter`, `dim_aktionen`) mit `1:n`-Kardinalität.
   * ⚡ **Power Query (M) & VertiPaq-Optimierung:** Vorgelagerte Transformationen und speichereffiziente Spaltenmodellierung für schnelle Abfragezeiten auf ~755.000 Transaktionszeilen.
 * 🔗 **Repository:** [alefritz19/PowerBI-Supermarkt-Analytics ➔](https://github.com/alefritz19/PowerBI-Supermarkt-Analytics)
+
+---
+
+## 🏅 Offizielle Cloud-Zertifizierungen & Verified Badges
+
+<table>
+  <tr>
+    <td align="center" width="140">
+      <a href="https://achieve.snowflake.com/39919e7c-4de3-46d3-80a5-de041ca1ffc5">
+        <img src="./assets/snowflake_badge_1_dww.png" width="100" height="100" alt="Snowflake Hands-On Essentials: Data Warehousing" />
+      </a>
+    </td>
+    <td>
+      <b>❄️ Snowflake Hands-On Essentials: Data Warehousing Workshop</b><br/>
+      <i>Ausgestellt von Snowflake Inc. (Offiziell verifiziert über Accredible / DORA)</i><br/>
+      <ul>
+        <li><b>Schwerpunkte:</b> Multi-Cluster Shared Data Architecture, Virtual Warehouses, Stages (Internal & AWS S3 External), File Formats (CSV, TSV, JSON, XML), Semi-Structured Data Parsing (<code>VARIANT</code>, <code>LATERAL FLATTEN</code>), 3NF & Dimensional Modeling.</li>
+        <li>🔗 <b>Offizieller Zertifikatsnachweis:</b> <a href="https://achieve.snowflake.com/39919e7c-4de3-46d3-80a5-de041ca1ffc5">achieve.snowflake.com/39919e7c-4de3-46d3-80a5-de041ca1ffc5 ➔</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
