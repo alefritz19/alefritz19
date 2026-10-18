@@ -48,7 +48,19 @@ Mein Schwerpunkt liegt auf dem Aufbau robuster, skalierbarer **End-to-End Datenp
 
 ---
 
-### 1. ⚙️ [Medallion Lakehouse Data Platform on Microsoft Fabric](https://github.com/alefritz19/Supermarkt-Medallion-Lakehouse-Fabric)
+### 1. ❄️ [EuroLogistik DACH — Cloud DWH & Semi-Structured Pipeline on Snowflake](https://github.com/alefritz19/alefritz19/tree/main/EuroLogistik-Snowflake-Medallion-DWH)
+> **Snowflake Data Cloud Engineering: Medallion-Architektur (Bronze ➔ Silver ➔ Gold) · JSON/IoT Processing (`VARIANT` & `LATERAL FLATTEN`) · Kimball Star Schema · Zero-Copy Cloning & Time Travel**
+
+* **Architekturfokus:** Aufbau einer dreischichtigen Cloud-Data-Warehouse-Plattform (`EUROLOGISTIK_DWH_DB`) für B2B-Logistik- und IoT-Sendungsdaten in der DACH-Region (Deutschland, Österreich, Schweiz).
+* **Data Engineering Kernbestandteile:**
+  * 📦 **Bronze ➔ Silver (`VARIANT`, `LATERAL FLATTEN` & `QUALIFY`):** Hybride Ingestion relationaler ERP-Stammdaten und verschachtelter JSON-Telemetrieevents, In-Flight-Deduplizierung via `QUALIFY ROW_NUMBER() OVER (...) = 1` sowie Normalisierung mehrteiliger Positions-Arrays in relationale Tabellen.
+  * ⭐ **Gold Layer (Kimball Star Schema):** Modellierung der Dimensionen (`DIM_KUNDEN`, `DIM_LOGISTIKZENTREN`) und der Faktentabelle (`FCT_LIEFERUNGEN`) inklusive automatischer SLA-Laufzeitbewertung und Storno-Isolierung (`IST_UMSATZRELEVANT`).
+  * 🛡️ **Snowflake Enterprise Features:** Speicherkostenfreies **Zero-Copy Cloning** (`EUROLOGISTIK_DEV_CLONE`) für Testumgebungen sowie verzögerungsfreie Tabellenwiederherstellung via **Snowflake Time Travel** (`UNDROP TABLE`).
+* 🔗 **Repository:** [alefritz19/EuroLogistik-Snowflake-Medallion-DWH ➔](https://github.com/alefritz19/alefritz19/tree/main/EuroLogistik-Snowflake-Medallion-DWH)
+
+---
+
+### 2. ⚙️ [Medallion Lakehouse Data Platform on Microsoft Fabric](https://github.com/alefritz19/Supermarkt-Medallion-Lakehouse-Fabric)
 > **Cloud Data Engineering & Lakehouse-Architektur (Bronze ➔ Silver ➔ Gold ➔ Direct Lake / DP-700 Standard)**
 
 * **Architekturfokus:** Migration und Skalierung operativer Transaktionsdaten (~755.000 Positionen) in eine moderne SaaS-Lakehouse-Infrastruktur auf Microsoft Fabric.
@@ -60,7 +72,7 @@ Mein Schwerpunkt liegt auf dem Aufbau robuster, skalierbarer **End-to-End Datenp
 
 ---
 
-### 2. 🏛️ [NexusTech B2B ERP Data Platform & SQL Server DWH](https://github.com/alefritz19/NexusTech-B2B-ERP-DataPlatform)
+### 3. 🏛️ [NexusTech B2B ERP Data Platform & SQL Server DWH](https://github.com/alefritz19/NexusTech-B2B-ERP-DataPlatform)
 > **End-to-End DWH Engineering: Von 3NF OLTP-Rohdaten zum validierten Kimball-Sternschema**
 
 * **Architekturfokus:** Entwurf und Implementierung einer zentralen Data-Warehouse-Schicht (`dwh`-Schema) auf Microsoft SQL Server für 40.000 B2B-Aufträge (363,82 Mio. € realisierter Nettoumsatz).
@@ -72,7 +84,7 @@ Mein Schwerpunkt liegt auf dem Aufbau robuster, skalierbarer **End-to-End Datenp
 
 ---
 
-### 3. 🗄️ [SQL Data Engineering & Production Toolkit](https://github.com/alefritz19/sql-analyst-toolkit)
+### 4. 🗄️ [SQL Data Engineering & Production Toolkit](https://github.com/alefritz19/sql-analyst-toolkit)
 > **Praxisorientierte T-SQL Referenzarchitektur für Data Cleansing, Deduplizierung & Pipeline-Auditing**
 
 * **Architekturfokus:** Standardisierte SQL-Patterns zur Transformation und Qualitätsprüfung unstrukturierter Rohdaten vor der Übernahme in den Gold-Layer.
@@ -84,7 +96,7 @@ Mein Schwerpunkt liegt auf dem Aufbau robuster, skalierbarer **End-to-End Datenp
 
 ---
 
-### 4. 📊 [Gold-Layer Serving & Kimball Star Schema Architecture](https://github.com/alefritz19/PowerBI-Supermarkt-Analytics)
+### 5. 📊 [Gold-Layer Serving & Kimball Star Schema Architecture](https://github.com/alefritz19/PowerBI-Supermarkt-Analytics)
 > **Dimensional Modeling & Semantic Layer Bereitstellung (6 Dimensionen · 2 Faktentabellen)**
 
 * **Architekturfokus:** Bereitstellung einer hochperformanten Gold-Layer-Datenarchitektur nach Ralph Kimball als Schnittstelle zwischen Data Warehouse und Fachbereich.
