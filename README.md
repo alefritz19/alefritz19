@@ -1,7 +1,7 @@
 <div align="center">
 
 # 👋 Hi, I'm Alexander Fritzler!
-### ⚙️ Cloud Data Engineer & Analytics Engineer (Microsoft Fabric · Snowflake · SQL Server · PySpark)
+### ⚙️ Cloud Data Engineer & Analytics Engineer (Microsoft Fabric · Databricks · Snowflake · SQL Server · PySpark)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/alexander-fritzler-214628356/)
 [![Snowflake DWW](https://img.shields.io/badge/Snowflake-Data_Warehousing_Verified-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)](https://achieve.snowflake.com/39919e7c-4de3-46d3-80a5-de041ca1ffc5)
@@ -10,7 +10,7 @@
 [![Location](https://img.shields.io/badge/Location-Germany-lightgrey?style=for-the-badge&logo=googlemaps)](https://maps.google.com)
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00B4D8&center=true&vCenter=true&width=620&lines=Cloud+Data+Engineering+(MS+Fabric+%26+Snowflake);Medallion+Lakehouse+%26+DWH+Architecture;T-SQL+%2C+PySpark+%26+Automated+ELT+Pipelines;Semantic+Gold+Layer+%26+DWH+Reconciliation" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00B4D8&center=true&vCenter=true&width=620&lines=Cloud+Data+Engineering+(Fabric+%26+Databricks+%26+Snowflake);Medallion+Lakehouse+%26+Delta+Lake+Architecture;T-SQL+%2C+PySpark+%26+Automated+ELT+Pipelines;Semantic+Gold+Layer+%26+DWH+Reconciliation" alt="Typing SVG" />
 </p>
 
 </div>
@@ -51,6 +51,8 @@
     </td>
   </tr>
 </table>
+
+> 💼 **Verifiziertes Snowflake Credential-Wallet:** [achieve.snowflake.com/profile/alexanderfritzler918558/wallet](https://achieve.snowflake.com/profile/alexanderfritzler918558/wallet) (Zentrale Übersicht aller offiziellen Auszeichnungen)
 
 ---
 
