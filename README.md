@@ -10,7 +10,7 @@
 [![Location](https://img.shields.io/badge/Location-Germany-lightgrey?style=for-the-badge&logo=googlemaps)](https://maps.google.com)
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00B4D8&center=true&vCenter=true&width=620&lines=Cloud+Data+Engineering+(Fabric+%26+Databricks+%26+Snowflake);Medallion+Lakehouse+%26+Delta+Lake+Architecture;T-SQL+%2C+PySpark+%26+Automated+ELT+Pipelines;Semantic+Gold+Layer+%26+DWH+Reconciliation" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3000&pause=1000&color=00B4D8&center=true&vCenter=true&width=800&lines=Cloud+Data+Engineering+(Fabric+%26+Databricks+%26+Snowflake);Medallion+Lakehouse+%26+Delta+Lake+Architecture;T-SQL+%2C+PySpark+%26+Automated+ELT+Pipelines;Semantic+Gold+Layer+%26+DWH+Reconciliation" alt="Typing SVG" />
 </p>
 
 </div>
