@@ -4,7 +4,8 @@
 ### ⚙️ Cloud Data Engineer & Analytics Engineer (Microsoft Fabric · Snowflake · SQL Server · PySpark)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/alexander-fritzler-214628356/)
-[![Snowflake Certified](https://img.shields.io/badge/Snowflake-Data_Warehousing_Verified-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)](https://achieve.snowflake.com/39919e7c-4de3-46d3-80a5-de041ca1ffc5)
+[![Snowflake DWW](https://img.shields.io/badge/Snowflake-Data_Warehousing_Verified-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)](https://achieve.snowflake.com/39919e7c-4de3-46d3-80a5-de041ca1ffc5)
+[![Snowflake CMCW](https://img.shields.io/badge/Snowflake-Collaboration_&_Marketplace_Verified-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)](https://achieve.snowflake.com/08fa3f9a-ca45-4ae0-9bb0-d869233af4ff#acc.sX9QkHTd)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail)](mailto:alefritz19@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Germany-lightgrey?style=for-the-badge&logo=googlemaps)](https://maps.google.com)
 
@@ -34,6 +35,21 @@
       </ul>
     </td>
   </tr>
+  <tr>
+    <td align="center" width="140">
+      <a href="https://achieve.snowflake.com/08fa3f9a-ca45-4ae0-9bb0-d869233af4ff#acc.sX9QkHTd">
+        <img src="./assets/snowflake_badge_2_cmcw.png" width="105" height="105" alt="Snowflake Hands-On Essentials: Collaboration, Marketplace & Cost Estimation" />
+      </a>
+    </td>
+    <td>
+      <b>❄️ Snowflake Hands-On Essentials: Collaboration, Marketplace & Cost Estimation Workshop</b><br/>
+      <i>Ausgestellt von Snowflake Inc. (Offiziell verifiziert über Accredible / DORA)</i><br/>
+      <ul>
+        <li><b>Schwerpunkte:</b> Multi-Cloud Infrastructure (AWS Frankfurt, GCP US-Central1, Azure West US 2), Secure Data Sharing (Cross-Cloud & Cross-Account Data Sharing ohne Datenkopie), Snowflake Marketplace Listing & Consumer Ingestion, Secure User-Defined Table Functions (UDTFs), FinOps & Resource Monitoring (Tiered Credit Alerts & Resource Monitors).</li>
+        <li>🔗 <b>Offizieller Zertifikatsnachweis:</b> <a href="https://achieve.snowflake.com/08fa3f9a-ca45-4ae0-9bb0-d869233af4ff#acc.sX9QkHTd">achieve.snowflake.com/08fa3f9a-ca45-4ae0-9bb0-d869233af4ff#acc.sX9QkHTd ➔</a></li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 ---
@@ -48,7 +64,7 @@ Mein Schwerpunkt liegt auf dem Aufbau robuster, skalierbarer **End-to-End Datenp
 
 ---
 
-### 1. ❄️ [EuroLogistik DACH — Cloud DWH & Semi-Structured Pipeline on Snowflake](https://github.com/alefritz19/alefritz19/tree/main/EuroLogistik-Snowflake-Medallion-DWH)
+### 1. ❄️ [EuroLogistik DACH — Cloud DWH & Semi-Structured Pipeline on Snowflake](https://github.com/alefritz19/EuroLogistik-Snowflake-Medallion-DWH)
 > **Snowflake Data Cloud Engineering: Medallion-Architektur (Bronze ➔ Silver ➔ Gold) · JSON/IoT Processing (`VARIANT` & `LATERAL FLATTEN`) · Kimball Star Schema · Zero-Copy Cloning & Time Travel**
 
 * **Architekturfokus:** Aufbau einer dreischichtigen Cloud-Data-Warehouse-Plattform (`EUROLOGISTIK_DWH_DB`) für B2B-Logistik- und IoT-Sendungsdaten in der DACH-Region (Deutschland, Österreich, Schweiz).
@@ -56,7 +72,7 @@ Mein Schwerpunkt liegt auf dem Aufbau robuster, skalierbarer **End-to-End Datenp
   * 📦 **Bronze ➔ Silver (`VARIANT`, `LATERAL FLATTEN` & `QUALIFY`):** Hybride Ingestion relationaler ERP-Stammdaten und verschachtelter JSON-Telemetrieevents, In-Flight-Deduplizierung via `QUALIFY ROW_NUMBER() OVER (...) = 1` sowie Normalisierung mehrteiliger Positions-Arrays in relationale Tabellen.
   * ⭐ **Gold Layer (Kimball Star Schema):** Modellierung der Dimensionen (`DIM_KUNDEN`, `DIM_LOGISTIKZENTREN`) und der Faktentabelle (`FCT_LIEFERUNGEN`) inklusive automatischer SLA-Laufzeitbewertung und Storno-Isolierung (`IST_UMSATZRELEVANT`).
   * 🛡️ **Snowflake Enterprise Features:** Speicherkostenfreies **Zero-Copy Cloning** (`EUROLOGISTIK_DEV_CLONE`) für Testumgebungen sowie verzögerungsfreie Tabellenwiederherstellung via **Snowflake Time Travel** (`UNDROP TABLE`).
-* 🔗 **Repository:** [alefritz19/EuroLogistik-Snowflake-Medallion-DWH ➔](https://github.com/alefritz19/alefritz19/tree/main/EuroLogistik-Snowflake-Medallion-DWH)
+* 🔗 **Repository:** [alefritz19/EuroLogistik-Snowflake-Medallion-DWH ➔](https://github.com/alefritz19/EuroLogistik-Snowflake-Medallion-DWH)
 
 ---
 
