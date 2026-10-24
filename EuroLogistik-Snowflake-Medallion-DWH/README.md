@@ -123,7 +123,7 @@ Die abschließende Aggregation über die Faktentabelle `GOLD_DWH.FCT_LIEFERUNGEN
 
 | ZIEL_LAND | SENDUNGEN_GESAMT | AKTIVE_SENDUNGEN | SLA_PUENKTLICH | SLA_VERSPAETET | TONNAGE_KG | REALISIERTER_UMSATZ_EUR |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **DE (Deutschland)** | 7 | 6 | 5 | 1 | 4.975,00 kg | **14.270,50 €** |
+| **DE (Deutschland)** | 7 | 6 | 5 | 1 | 3.725,00 kg | **14.270,50 €** |
 | **CH (Schweiz)** | 1 | 1 | 0 | 1 | 210,00 kg | **3.820,00 €** |
 | **AT (Österreich)** | 1 | 1 | 1 | 0 | 160,00 kg | **2.150,00 €** |
 

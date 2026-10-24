@@ -108,6 +108,6 @@ Warum machen wir im Gold-Layer einen `JOIN`?
 
 | ZIEL_LAND | SENDUNGEN_GESAMT | AKTIVE_SENDUNGEN | SLA_PUENKTLICH | SLA_VERSPAETET | TONNAGE_KG | REALISIERTER_UMSATZ_EUR |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **DE** | 7 | 6 | 5 | 1 | 4.975,00 | **14.270,50 €** |
+| **DE** | 7 | 6 | 5 | 1 | 3.725,00 | **14.270,50 €** |
 | **CH** | 1 | 1 | 0 | 1 | 210,00 | **3.820,00 €** |
 | **AT** | 1 | 1 | 1 | 0 | 160,00 | **2.150,00 €** |
