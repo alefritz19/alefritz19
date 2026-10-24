@@ -83,7 +83,7 @@ Mein Schwerpunkt liegt auf dem Aufbau robuster, skalierbarer **End-to-End-Datenp
 
 * **Architekturfokus:** Migration und Skalierung operativer Transaktionsdaten (~755.000 Positionen) in eine moderne SaaS-Lakehouse-Infrastruktur auf Microsoft Fabric.
 * **Kernbestandteile:**
-  * ⚡ **Bronze ➔ Silver (PySpark-ETL-Pipelines):** Automatisierte Schemavalidierung, Datentyp-Konvertierung, Bereinigung und Delta-Lake-Speicheroptimierung via `Z-ORDER BY (BonDatum, ProduktID)`.
+  * ⚡ **Bronze ➔ Silver (PySpark-ETL-Pipelines):** Automatisierte Schemavalidierung, Datentyp-Konvertierung, Bereinigung und Delta-Lake-Speicheroptimierung via `Z-ORDER BY (EinkaufDatum, FilialeID, ProduktID)` und V-Order.
   * 🏛️ **Gold Layer (Fabric Data Warehouse):** Datenbankübergreifende `CTAS`-Aggregationen, dimensionale Views und Stored Procedures für performante Abfragen.
   * 🚀 **Bereitstellung ohne Datenkopie (Direct Lake):** Direkte Anbindung des semantischen Modells an Delta-Parquet-Dateien im OneLake ohne Datenkopien oder Import-Latenzen.
 * 🔗 **Repository:** [alefritz19/Supermarkt-Medallion-Lakehouse-Fabric ➔](https://github.com/alefritz19/Supermarkt-Medallion-Lakehouse-Fabric)
