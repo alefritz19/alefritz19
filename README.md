@@ -6,6 +6,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Vernetzen-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/alexander-fritzler-214628356/)
 [![Snowflake DWW](https://img.shields.io/badge/Snowflake_Badge-Data_Warehousing_Workshop-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)](https://achieve.snowflake.com/39919e7c-4de3-46d3-80a5-de041ca1ffc5)
 [![Snowflake CMCW](https://img.shields.io/badge/Snowflake_Badge-Collaboration_&_Marketplace_Workshop-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)](https://achieve.snowflake.com/08fa3f9a-ca45-4ae0-9bb0-d869233af4ff#acc.sX9QkHTd)
+[![Databricks](https://img.shields.io/badge/Databricks_Badge-Academy_Fundamentals-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://credentials.databricks.com/59508dd3-5419-40e9-8d35-8005850f3bc6#acc.mKVqU5LG)
 [![E-Mail](https://img.shields.io/badge/E--Mail-Kontakt-red?style=for-the-badge&logo=gmail)](mailto:alefritz19@gmail.com)
 [![Standort](https://img.shields.io/badge/Standort-Deutschland-lightgrey?style=for-the-badge&logo=googlemaps)](https://maps.google.com)
 
@@ -17,9 +18,24 @@
 
 ---
 
-## 🏅 Weiterbildung: Snowflake Hands-On Essentials (Workshop-Badges)
+## 🏅 Weiterbildung: Databricks & Snowflake Hands-On Essentials (Workshop-Badges)
 
 <table>
+    <tr>
+    <td align="center" width="140">
+      <a href="https://credentials.databricks.com/59508dd3-5419-40e9-8d35-8005850f3bc6#acc.mKVqU5LG">
+        <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/198352781" width="105" height="105" alt="Databricks Fundamentals" />
+      </a>
+    </td>
+    <td>
+      <strong>🧱 Akademie-Akkreditierung: Databricks-Grundlagen (Fundamentals)</strong><br>
+      <em>Offizielle Akkreditierung von Databricks Academy (Oktober 2026)</em>
+      <ul>
+        <li><strong>Schwerpunkte:</strong> Lakehouse-Architektur, Delta Lake (ACID & Time Travel), PySpark, Unity Catalog & Spark SQL.</li>
+        <li>🔗 <strong>Badge-Nachweis:</strong> <a href="https://credentials.databricks.com/59508dd3-5419-40e9-8d35-8005850f3bc6#acc.mKVqU5LG">credentials.databricks.com/59508dd3-5419-40e9-8d35-8005850f3bc6 &rarr;</a></li>
+      </ul>
+    </td>
+  </tr>
   <tr>
     <td align="center" width="140">
       <a href="https://achieve.snowflake.com/39919e7c-4de3-46d3-80a5-de041ca1ffc5">
